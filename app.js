@@ -110,8 +110,8 @@ veryOldInventors = inventors.filter((inventor) => inventor.year >= 1500 && inven
 // Check your work:
 console.log('Exercise 1 my result: ', veryOldInventors);
 console.log('Exercise 1 correct result: ', [
-  { first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 },
-  { first: 'Johannes', last: 'Kepler', year: 1571, passed: 1630 },
+    { first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 },
+    { first: 'Johannes', last: 'Kepler', year: 1571, passed: 1630 },
 ]);
 
 /*
@@ -133,23 +133,23 @@ let inventorNames = [];
 
 // Complete the exercise in the space below:
 inventorNames = inventors.map((inventor) => {
-    return {first: inventor.first, last: inventor.last};
+    return { first: inventor.first, last: inventor.last };
 });
 // Check your work:
 console.log('Exercise 2 my result: ', inventorNames);
 console.log('Exercise 2 correct result: ', [
-  { first: 'Albert', last: 'Einstein' },
-  { first: 'Isaac', last: 'Newton' },
-  { first: 'Galileo', last: 'Galilei' },
-  { first: 'Marie', last: 'Curie' },
-  { first: 'Johannes', last: 'Kepler' },
-  { first: 'Nicolaus', last: 'Copernicus' },
-  { first: 'Max', last: 'Planck' },
-  { first: 'Katherine', last: 'Blodgett' },
-  { first: 'Ada', last: 'Lovelace' },
-  { first: 'Sarah E.', last: 'Goode' },
-  { first: 'Lise', last: 'Meitner' },
-  { first: 'Hanna', last: 'Hammarström' },
+    { first: 'Albert', last: 'Einstein' },
+    { first: 'Isaac', last: 'Newton' },
+    { first: 'Galileo', last: 'Galilei' },
+    { first: 'Marie', last: 'Curie' },
+    { first: 'Johannes', last: 'Kepler' },
+    { first: 'Nicolaus', last: 'Copernicus' },
+    { first: 'Max', last: 'Planck' },
+    { first: 'Katherine', last: 'Blodgett' },
+    { first: 'Ada', last: 'Lovelace' },
+    { first: 'Sarah E.', last: 'Goode' },
+    { first: 'Lise', last: 'Meitner' },
+    { first: 'Hanna', last: 'Hammarström' },
 ]);
 
 /*
@@ -168,18 +168,18 @@ sortedByBirthYear = inventors.sort((inventorA, inventorB) => {
 // Check your work:
 console.log('Exercise 3 my result: ', sortedByBirthYear);
 console.log('Exercise 3 correct result: ', [
-  { first: 'Nicolaus', last: 'Copernicus', year: 1473, passed: 1543 },
-  { first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 },
-  { first: 'Johannes', last: 'Kepler', year: 1571, passed: 1630 },
-  { first: 'Isaac', last: 'Newton', year: 1643, passed: 1727 },
-  { first: 'Ada', last: 'Lovelace', year: 1815, passed: 1852 },
-  { first: 'Hanna', last: 'Hammarström', year: 1829, passed: 1909 },
-  { first: 'Sarah E.', last: 'Goode', year: 1855, passed: 1905 },
-  { first: 'Max', last: 'Planck', year: 1858, passed: 1947 },
-  { first: 'Marie', last: 'Curie', year: 1867, passed: 1934 },
-  { first: 'Lise', last: 'Meitner', year: 1878, passed: 1968 },
-  { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 },
-  { first: 'Katherine', last: 'Blodgett', year: 1898, passed: 1979 },
+    { first: 'Nicolaus', last: 'Copernicus', year: 1473, passed: 1543 },
+    { first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 },
+    { first: 'Johannes', last: 'Kepler', year: 1571, passed: 1630 },
+    { first: 'Isaac', last: 'Newton', year: 1643, passed: 1727 },
+    { first: 'Ada', last: 'Lovelace', year: 1815, passed: 1852 },
+    { first: 'Hanna', last: 'Hammarström', year: 1829, passed: 1909 },
+    { first: 'Sarah E.', last: 'Goode', year: 1855, passed: 1905 },
+    { first: 'Max', last: 'Planck', year: 1858, passed: 1947 },
+    { first: 'Marie', last: 'Curie', year: 1867, passed: 1934 },
+    { first: 'Lise', last: 'Meitner', year: 1878, passed: 1968 },
+    { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 },
+    { first: 'Katherine', last: 'Blodgett', year: 1898, passed: 1979 },
 ]);
 
 /* 
@@ -202,10 +202,10 @@ inventorNamedAda = inventors.find((inventor) => inventor.first === "Ada");
 // Check your work:
 console.log('Exercise 4 my result: ', inventorNamedAda);
 console.log('Exercise 4 correct result: ', {
-  first: 'Ada',
-  last: 'Lovelace',
-  year: 1815,
-  passed: 1852,
+    first: 'Ada',
+    last: 'Lovelace',
+    year: 1815,
+    passed: 1852,
 });
 
 /*
@@ -230,46 +230,46 @@ firstLast = people.map((person) => {
 // Check your work:
 console.log('Exercise 5 my result: ', firstLast);
 console.log('Exercise 5 correct result: ', [
-  'Carl Becker',
-  'Samuel Beckett',
-  'Mick Beddoes',
-  'Henry Beecher',
-  'Ludwig Beethoven',
-  'Menachem Begin',
-  'Hilaire Belloc',
-  'Saul Bellow',
-  'Robert Benchley',
-  'Peter Benenson',
-  'David Ben-Gurion',
-  'Walter Benjamin',
-  'Tony Benn',
-  'Chester Bennington',
-  'Leana Benson',
-  'Silas Bent',
-  'Lloyd Bentsen',
-  'Ric Berger',
-  'Ingmar Bergman',
-  'Luciano Berio',
-  'Milton Berle',
-  'Irving Berlin',
-  'Eric Berne',
-  'Sandra Bernhard',
-  'Yogi Berra',
-  'Halle Berry',
-  'Wendell Berry',
-  'Erin Bethea',
-  'Aneurin Bevan',
-  'Ken Bevel',
-  'Joseph Biden',
-  'Ambrose Bierce',
-  'Steve Biko',
-  'Josh Billings',
-  'Frank Biondo',
-  'Augustine Birrell',
-  'Elk Black',
-  'Robert Blair',
-  'Tony Blair',
-  'William Blake',
+    'Carl Becker',
+    'Samuel Beckett',
+    'Mick Beddoes',
+    'Henry Beecher',
+    'Ludwig Beethoven',
+    'Menachem Begin',
+    'Hilaire Belloc',
+    'Saul Bellow',
+    'Robert Benchley',
+    'Peter Benenson',
+    'David Ben-Gurion',
+    'Walter Benjamin',
+    'Tony Benn',
+    'Chester Bennington',
+    'Leana Benson',
+    'Silas Bent',
+    'Lloyd Bentsen',
+    'Ric Berger',
+    'Ingmar Bergman',
+    'Luciano Berio',
+    'Milton Berle',
+    'Irving Berlin',
+    'Eric Berne',
+    'Sandra Bernhard',
+    'Yogi Berra',
+    'Halle Berry',
+    'Wendell Berry',
+    'Erin Bethea',
+    'Aneurin Bevan',
+    'Ken Bevel',
+    'Joseph Biden',
+    'Ambrose Bierce',
+    'Steve Biko',
+    'Josh Billings',
+    'Frank Biondo',
+    'Augustine Birrell',
+    'Elk Black',
+    'Robert Blair',
+    'Tony Blair',
+    'William Blake',
 ]);
 
 /*
@@ -348,3 +348,35 @@ idx = comments.findIndex((comment) => comment.id === 123523);
 // Check your work:
 console.log('Exercise 9 my result: ', idx);
 console.log('Exercise 9 correct result: ', 3);
+
+/*
+Level Up exercise 1: Array.prototype.reduce()
+
+Calculate the combined lifespan of all the inventors using 
+Array.prototype.reduce()
+
+- Each object in the array includes these properties: 
+  'first', 'last', 'year' (birth year), and 'passed' (year of death).
+- Use the Array.prototype.reduce() method to calculate the sum of the total 
+  years lived by all the inventors.
+- Store the total sum in the variable 'totalYearsLived'.
+
+Hints:
+
+- Inside the reduce callback function, calculate the lifespan of each inventor 
+  (passed - year).
+- Accumulate this lifespan in the 'totalYearsLived' variable.
+- Remember, reduce takes a callback function and an initial value for the 
+  accumulator.
+*/
+console.log('\n===================== Level Up exercise 1 =====================');
+let totalYearsLived = 0;
+
+// Complete the exercise in the space below:
+const initialValue = 0;
+totalYearsLived = inventors.reduce((accumulator, currentValue) =>
+    accumulator + (currentValue.passed - currentValue.year), initialValue,
+);
+// Check your work:
+console.log('Level Up 1 my result: ', totalYearsLived);
+console.log('Level Up 1 correct result: ', 861);
